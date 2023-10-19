@@ -18,7 +18,7 @@ let text7 = "je blijft wachten in de hoop dat de man weg gaat of dat er hulp kom
 let text8 = "je doet de kelder deur open. je ziet niemand. je bent veilig. of tenminsten. dat dacht je. de man komt van achter de kast vandaan en neemt je in een greep: ik wist dat ik je zou pakken rat. hij pakt zijn mes en snijd je keel door"
 let text9 = "je verstopt in de muren. ga naar einde 5"
 let text10 = "je blijft in de keleder ondanks de enorme honger. je vraagt je af hoelang je je nog zal bevinden in deze kelder. plotseling hoor je een geluid. het is een rat. de rat snuffelt rustig rond terwijl jij hem aanstaart. vers eten."
-let text11 = "je staart naar de rat terwijl hij steeds dichterbij komt. je wilt hem laten leven maar de honger neemt over. ga naar text 11"
+let text11 = "je staart naar de rat terwijl hij steeds dichterbij komt. je wilt hem laten leven maar de honger neemt over. ga naar text 12"
 let text12 = "zodra de rat dichtbij je is pak je je kans en eet je hem op. lekker. je honger neemt af. je kan nu langer in de kelder blijven. ineens begin je je raar te voelen. je maag brand. je armen schudden. en je ogen worden bloedrood. er was iets mis met die rat. de honger neemt snel toe. je wilt meer. MEER. je armen willen meer slachtoffers maken. maar er zijn geen ratten meer. zover jij weet is er nog 1 ander organisme in het huis. je.."
 let text13 = "je gaat de kelder uit. je denkt niet aan de man die mogelijk nog je huis rond snuvelt. je loopt rechtstreeks naar de deur en loopt naar buiten. je gaat het bos in achter je huis. je ziet een hoge boom. bovenaan een nest. een nest met vogels. je..."
 let text14 = "je gaat de kelder uit opzoek naar het grootste stuk vleeg in je omgeving. heel zachtjes sluip je rond het huis op ook maar een kleine zijn van de man. terwijl je rond sluipt kom je langs de keuken. je weet dat hier voedsel is maar het risico is dat je koelkast een enorm kraak geluid maakt waneer je hem open. je weet ook dat er een vlijm scherp mes in de la ligt. perfect voor je prooi zijn keel. je zult kiezen tussen een van de twee. je kiest?"
@@ -30,13 +30,127 @@ let text19 = "je sluipt naar JOUW kat toe. je pakt hem vast. hij miauwt naar je 
 let text20 = "hoe honger je ook bent besslis je niet je eigen kat op te eten. je verhongerd liever. niet veel langer daarna komt de politie. je bent gered! je legt je sitautie uit en nemen je mee naar het politie bureau. later vinden ze de man die nogsteeds in je huis rond zwerfde. hij is nu opgepakt en in de gevangenis gegooid. jij leeft nu rustig verder na dat je dorst voor bloed af is gelopen. of dat denk je..... ga naar einde 4"
 let text21 = "je kiest voor de achterdeur. je maakt een sprint voor de open deur. je hoort de man vanaf boven naar beneden komen. de man:BLIJF HIER ROT JONG! je kijkt niet achter om terwijl je het huis uit sprint de straat op naar het eerste mens dat jou kan helpen. ga naar einde 3"
 let text22 = "je kiest voor de voordeur. je sprint naar de voordeur. je weet dat de deur opslot zit maar waar zijn de sleutels heen. je zweert dat ze op de kast lagen. zoek je deze? vraagt de man met een glimlach. je kijkt in pure angst als je de man zie met de voordeur sleutel. je kan nergens heen. de man pakt zijn mes. ik denk dat je wel weet waar dit eindigt. ga naar einde 2"
+
+
 console.log(text1)
-let vraag1 = readlineSync.question("A: gaat naar de deur\nB:je blijft liggen ");{
-    if (vraag1 = "A"){
-        console.log("ga naar text 2")}
 
-        else (vraag1 == "B");{
-            console.log("ga naar text 3")
-    }
+question = ["A" , "B"]
+index = readlineSync.keyInSelect(question , "welke kies je")
+console.log ("jouw antwoord was" + question[index]  );
+if (question[index] == "A"){
+    console.log(text2)
+}
+ else (question[index] == "B");{
+    console.log(text3)
+    return;
+ }
+
+
+question = ["A" , "B"]
+index = readlineSync.keyInSelect(question , "welke kies je")
+console.log ("jouw antwoord was" + question[index]  );
+if (question[index] == "A"){
+    console.log(text4)
+}
+ else (question[index] == "B")
+    console.log(text5);{
+    return;
+ }
+
+ question = ["A" , "B"]
+ index = readlineSync.keyInSelect(question , "welke kies je")
+ console.log ("jouw antwoord was" + question[index]  );
+ if (question[index] == "A"){
+     console.log(text9)
+ }
+  else (question[index] == "B")
+     console.log(text6);{
+     return;
+  }
+
+  question = ["A" , "B"]
+  index = readlineSync.keyInSelect(question , "welke kies je")
+  console.log ("jouw antwoord was" + question[index]  );
+  if (question[index] == "A"){
+      console.log(text8)
+  }
+   else (question[index] == "B")
+      console.log(text7);{
+      return;
+   }
+
+   question = ["A" , "B"]
+   index = readlineSync.keyInSelect(question , "welke kies je")
+   console.log ("jouw antwoord was" + question[index]  );
+   if (question[index] == "A"){
+       console.log(text10)
+   }
+    else (question[index] == "B")
+       console.log(text8);{
+       return;
     }
 
+    question = ["A" , "B"]
+    index = readlineSync.keyInSelect(question , "welke kies je")
+    console.log ("jouw antwoord was" + question[index]  );
+    if (question[index] == "A"){
+        console.log(text11)
+    }
+     else (question[index] == "B")
+        console.log(text12);{
+        return;
+     }
+
+     question = ["A" , "B"]
+     index = readlineSync.keyInSelect(question , "welke kies je")
+     console.log ("jouw antwoord was" + question[index]  );
+     if (question[index] == "A"){
+         console.log(text14)
+     }
+      else (question[index] == "B")
+         console.log(text13);{
+         return;
+      }
+
+      question = ["A" , "B"]
+      index = readlineSync.keyInSelect(question , "welke kies je")
+      console.log ("jouw antwoord was" + question[index]  );
+      if (question[index] == "A"){
+          console.log(text16)
+      }
+       else (question[index] == "B")
+          console.log(text15);{
+          return;
+       }
+
+       question = ["A" , "B"]
+       index = readlineSync.keyInSelect(question , "welke kies je")
+       console.log ("jouw antwoord was" + question[index]  );
+       if (question[index] == "A"){
+           console.log(text19)
+       }
+        else (question[index] == "B")
+           console.log(text20);{
+           return;
+        }
+        question = ["A" , "B"]
+        index = readlineSync.keyInSelect(question , "welke kies je")
+        console.log ("jouw antwoord was" + question[index]  );
+        if (question[index] == "A"){
+            console.log(text18)
+        }
+         else (question[index] == "B")
+            console.log(text17);{
+            return;
+         }
+         question = ["A" , "B"]
+         index = readlineSync.keyInSelect(question , "welke kies je")
+         console.log ("jouw antwoord was" + question[index]  );
+         if (question[index] == "A"){
+             console.log(text22)
+         }
+          else (question[index] == "B")
+             console.log(text21);{
+             return;
+          }
+        
