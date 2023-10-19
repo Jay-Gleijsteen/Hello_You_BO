@@ -26,7 +26,7 @@ text9 je verstopt in de muren. ga naar einde 5
 
 text10 je blijft in de keleder ondanks de enorme honger. je vraagt je af hoelang je je nog zal bevinden in deze kelder. plotseling hoor je een geluid. het is een rat. de rat snuffelt rustig rond terwijl jij hem aanstaart. vers eten.
 
-text11 je staart naar de rat terwijl hij steeds dichterbij komt. je wilt hem laten leven maar de honger neemt over. ga naar text 11
+text11 je staart naar de rat terwijl hij steeds dichterbij komt. je wilt hem laten leven maar de honger neemt over. ga naar text 12
 
 text12 zodra de rat dichtbij je is pak je je kans en eet je hem op. lekker. je honger neemt af. je kan nu langer in de kelder blijven. ineens begin je je raar te voelen. je maag brand. je armen schudden. en je ogen worden bloedrood. er was iets mis met die rat. de honger neemt snel toe. je wilt meer. MEER. je armen willen meer slachtoffers maken. maar er zijn geen ratten meer. zover jij weet is er nog 1 ander organisme in het huis. je..
 
