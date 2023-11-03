@@ -1,1 +1,2 @@
 # Hello_You_BO
+dit zelfegmaakte verhaal gaat over een jongen die alleen thuis is waneer er een mysterieuze man aanbelt. deze man wilt jouw vermoorden. het verhaal word met elke keuze gekker en gekker. een einde waar je leeft eentje waar je dood gaat en eentje waar je in de muren verstopt? het verhaal bestaat uit 22 verschillende opties om van de kiezen en 7 eindes. kan jij ze allemaal vinden?

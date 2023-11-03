@@ -64,7 +64,7 @@ for(let doorgaan; doorgaan != true; doorgaan = false){
 
     question = ["A" , "B"]
     index = readlineSync.keyInSelect(question , "welke kies je")
-    console.log ("jouw antwoord was" + question[index]  );
+    console.log ("jouw antwoord was " + question[index]  );
     if (question[index] == "A"){
         console.log(text6)
     } else if(question[index] == "B"){
@@ -81,6 +81,15 @@ for(let doorgaan; doorgaan != true; doorgaan = false){
     } else if(question[index] == "B") {
         console.log(text7)
     }
+
+
+
+
+
+
+
+
+    
 
     question = ["A" , "B"]
     index = readlineSync.keyInSelect(question , "welke kies je")
